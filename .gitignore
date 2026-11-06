@@ -1,0 +1,26 @@
+
+# Next.js
+/.next/
+*.tsbuildinfo
+
+# Local logs
+.command-log.txt
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+.playwright-mcp/
+
+# Python backend
+/backend/.venv/
+/backend/.env
+/backend/data/
+__pycache__/
+.pytest_cache/
+
+#App logs
+logs/
